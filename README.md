@@ -72,8 +72,8 @@ The IT department requires full access to both frontend and backend instances fo
 
 
 
-**After completing the above tasks, documention of the following reports were made:
-**
+**After completing the above tasks, documention of the following reports were made:**
+
 
  - Vulnerability assessment report, detailing the identified weaknesses and their potential impact on the healthcare company's cloud infrastructure.
  
