@@ -20,24 +20,20 @@ The cloudformation in the following github repository was used: https://github.c
 
 
 
-**Infrastructure Details:**
+- **Infrastructure Details:**
 
 
-Cloud Provider: The healthcare company uses a popular cloud service provider (e.g., AWS, Azure, Google Cloud) for hosting its infrastructure.
+ - Cloud Provider: The healthcare company uses a popular cloud service provider (e.g., AWS, Azure, Google Cloud) for hosting its infrastructure.
+ 
+ - Data Storage: Patient records, medical images, and other sensitive healthcare data are stored in cloud-based databases and file storage systems.
+ 
+ - Virtual Machines (VMs): The company utilizes VMs for hosting healthcare applications and databases.
+ 
+ - Network Configuration: The cloud infrastructure has several virtual networks and subnets for different departments and services within the company.
+ 
+ - Identity and Access Management (IAM): The healthcare company employs IAM policies and access controls for managing user access to cloud resources.
 
-Data Storage: Patient records, medical images, and other sensitive healthcare data are stored in cloud-based databases and file storage systems.
-
-Virtual Machines (VMs): The company utilizes VMs for hosting healthcare applications and databases.
-
-Network Configuration: The cloud infrastructure has several virtual networks and subnets for different departments and services within the company.
-
-Identity and Access Management (IAM): The healthcare company employs IAM policies and access controls for managing user access to cloud resources.
-
-The IT department requires full access to both frontend and backend instances for management purposes.
-
-All instances should be automatically assigned public and private IP addresses where necessary.
-
-The VPC should be designed to accommodate future growth and scalability.
+The IT department requires full access to both frontend and backend instances for management purposes. All instances should be automatically assigned public and private IP addresses where necessary. The VPC should be designed to accommodate future growth and scalability.
 
 
 
