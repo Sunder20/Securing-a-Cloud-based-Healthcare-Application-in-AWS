@@ -5,6 +5,7 @@ The Aim of this project is to assess the security vulnerabilities in a healthcar
 The company relies on the cloud to store and manage sensitive patient data, conduct telemedicine consultations, and host critical healthcare applications. However, due to various security oversights and misconfigurations, the infrastructure is highly vulnerable to potential attacks. The task is to identify and exploit these vulnerabilities to highlight the risks associated with the insecure cloud infrastructure and provide recommendations for remediation. 
 
 
+
 The application stack consists of the following components:
 
 
@@ -16,6 +17,7 @@ The application stack consists of the following components:
 
 
 The cloudformation in the following github repository was used: https://github.com/edaviage/medcircle-midterm
+
 
 
 **Infrastructure Details:**
@@ -36,7 +38,8 @@ The IT department requires full access to both frontend and backend instances fo
 All instances should be automatically assigned public and private IP addresses where necessary.
 
 The VPC should be designed to accommodate future growth and scalability.
- 
+
+
 
 **Insecure Infrastructure Issues:**
 
@@ -53,6 +56,7 @@ Lack of Logging and Monitoring: The infrastructure lacks robust logging and moni
 
 Insufficient Disaster Recovery: There is no comprehensive backup and disaster recovery plan in place, making the infrastructure susceptible to data loss and extended downtime.
  
+
 
 **Project Tasks:** 
 
@@ -72,8 +76,9 @@ Analyze the logging and monitoring capabilities, identifying weaknesses and prop
 Assess the disaster recovery plan, highlighting the risks of data loss and extended downtime due to insufficient backup mechanisms.
 
 
-After completing the above tasks, documention of the following reports were made:
 
+**After completing the above tasks, documention of the following reports were made:
+**
 
 Vulnerability assessment report, detailing the identified weaknesses and their potential impact on the healthcare company's cloud infrastructure.
 
@@ -84,6 +89,7 @@ Virtual machine vulnerability assessment report, outlining the vulnerabilities i
 Network security assessment report, identifying vulnerabilities in network security and proposing improvements for secure access control.
 
 Disaster recovery assessment report, highlighting the risks of data loss and extended downtime and proposing a comprehensive backup and disaster recovery plan.
+
 
 
 Based on the above analysis reports made, a high level overview of the infrastructure changes were made. Documentation on the services and methodologies that was intended to employ to mitigate the security risk that have been identified from various assessment reports are given. It also includes architectural diagrams that provides a high level overview of the proposed architecture. These diagrams includes accurate dataflows that cover three scenarios. 
